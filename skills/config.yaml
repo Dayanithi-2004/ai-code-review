@@ -1,0 +1,13 @@
+# Revelyt Skills Configuration
+# Skills injected ONCE per wave (not per agent) for minimal token overhead.
+
+wave1_skills:
+  - security          # merged: security-discipline + env-config-discipline
+  - code-quality      # merged: coding-discipline + error-handling
+  - performance       # performance-awareness
+  - layering          # layering-discipline
+  - dead-code         # dead-code-rule
+
+wave2_skills:
+  - test-quality      # test-quality
+  - api-design        # merged: consistency-enforcer + api-contract
